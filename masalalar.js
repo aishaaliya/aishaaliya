@@ -1,3 +1,4 @@
+
 //1
 // let k = 15;
 // let n = 3;
@@ -95,12 +96,16 @@
 // console.log(s);
 
 //13
-// let s = 0;
+
 // let n = 4;
-// for(let i = 1.1 ; i <= n; i++){
-//     console.log(i);
-// console.log();
+// let s = 0;
+// let b = 1;
+// for (let i = 1.1; i <= n; i += 1) {
+//   let res=(1 + 0.1 * i) * b;
+//   s = s + res;
+//   b *= -1;
 // }
+// console.log(s);
 
 //14
 // let n = 8;
@@ -118,9 +123,64 @@
 //   console.log(s);
 // }
 
-//16
+// //16
 // n = 8;
 // a = 0.5;
-// for (let i = 1; i <= n; i++ ){
-// s = i+
+// s = 1;
+// for (let i = 1; i <= n; i++) {
+
+//   s *= a;
+//   console.log(s);
+// }
+
+//17
+// let a = 1
+//  let i = 1
+//  for(;i )
+
+//17
+// n = 8;
+// a = 0.5;
+// s = 1;
+// sum = 1;
+// for (let i = 1; i <= n; i++) {
+//   s = +i;
+//   s *= a;
+//   sum += s;
+//   console.log(s);
+// }
+// console.log(sum);
+
+//18
+// n = 8;
+// a = 0.5;
+// son = 1
+// daraja = 1
+// for (i =1; i <=n ; i++){
+//  daraja =daraja*a*-1
+// son =son +daraja
+// console.log(son );
+// }
+
+//19
+// n = 6;
+// s = 1;
+// for (i = 1; i <= n; i = i++) {
+//   console.log(i);
+//   s *= i;
+// }
+// console.log(s);
+
+//20
+// n = 8;
+// s = 1;
+// for (i = 1; i <= n; i++) {
+//   console.log(i);
+//   console.log(factorial);
+
+//   factorial *= i;
+//   console.log(factorial);
+
+//   s += factorial;
+//   console.log(s);
 // }
